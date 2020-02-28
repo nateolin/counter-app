@@ -5,8 +5,7 @@ class Counter extends Component {
     value: this.props.value
   };
 
-  handleIncrement = product => {
-    console.log(product);
+  handleIncrement = () => {
     this.setState({ value: this.state.value + 1});
   }
 
